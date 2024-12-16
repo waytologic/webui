@@ -18,7 +18,8 @@ function App() {
   
   return (
     <div className="App">
-    <h1> <i className="fa-sharp fa-light fa-address-book">&nbsp;</i> hI bHUVAN </h1>
+    <h1> <i className="fa-sharp fa-light fa-address-book">&nbsp;</i> hI bHUVAN <br/>
+    <i className="fa-sharp fa-light fa-spider-web">&nbsp;</i> Web UI </h1>
     </div>
   );
 }

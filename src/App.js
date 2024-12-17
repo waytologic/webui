@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import React, { useState, useEffect, Suspense, lazy, useId } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Mylayout from './newlayout';
+
 function App() {
   
   useEffect(() => {
@@ -18,8 +20,9 @@ function App() {
   
   return (
     <div className="App">
-    <h1> <i className="fa-sharp fa-light fa-address-book">&nbsp;</i> hI bHUVAN <br/>
-    <i className="fa-sharp fa-light fa-spider-web">&nbsp;</i> Web UI </h1>
+     <div>       
+         <Mylayout />       
+      </div>
     </div>
   );
 }
